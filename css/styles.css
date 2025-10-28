@@ -1,12 +1,17 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1, 17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
 }
 
 .span-studio {
@@ -37,11 +42,11 @@
     color: #2e2f42;
 }
 
-:hover {
+.studio .portfolio .contacts :hover {
     color: #404bbf;
 }
 
-:focus {
+.studio .portfolio .contacts :focus {
     color: #404bbf;
 }
 
@@ -57,6 +62,14 @@
     color: #434455;
 }
 
+.mail :hover {
+    color: #404bbf;
+}
+
+.mail :focus {
+    color: #404bbf;
+}
+
 .tel {
     font-size: 16px;
     line-height: 1.5;
@@ -64,19 +77,12 @@
     color: #434455;
 }
 
-:hover {
+.tel :hover {
     color: #404bbf;
 }
 
-:focus {
+.tel :focus {
     color: #404bbf;
-}
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #ffffff;
 }
 
 .hero {
@@ -100,12 +106,170 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+}
 
-    :hover {
-        background-color: #404bbf;
-    }
+.button:hover {
+    background-color: #404bbf;
+}
 
-    :focus {
-        background-color: #404bbf;
-    }
+.button:focus {
+    background-color: #404bbf;
+}
+
+.about-section {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.22;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2e2f42;
+}
+
+.Strategy {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.Strategy-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.Punctuality {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.Punctuality-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.Diligence {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.Diligence-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.Technologies {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.Technologies-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team-section {
+    background-color: #f4f4fd
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-1 {
+    background-color: #ffffff;
+}
+
+.team-1-title {
+    font-weight: 500 font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-1-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team-2 {
+    background-color: #ffffff;
+}
+
+.team-2-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-2-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team-3 {
+    background-color: #ffffff;
+}
+
+.team-3-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-3-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team-4 {
+    background-color: #ffffff;
+}
+
+.team-4-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-4-p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
