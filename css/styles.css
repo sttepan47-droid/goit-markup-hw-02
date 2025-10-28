@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #434455;
     background-color: #ffffff;
     font-size: 16px;
@@ -30,7 +30,7 @@ img {
 }
 
 .section-title {
-    font-family: 'Raleway', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
@@ -104,7 +104,9 @@ img {
     padding: 160px 15px;
 }
 
+
 .hero-title {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 56px;
     line-height: 1.07;
     color: #ffffff;
