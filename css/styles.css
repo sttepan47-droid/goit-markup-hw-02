@@ -20,7 +20,7 @@ img {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -33,7 +33,7 @@ img {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 72px;
@@ -48,8 +48,9 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
 
 .logo-accent {
     color: #2e2f42;
@@ -63,6 +64,7 @@ img {
 .menu {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .menu-link {
@@ -71,7 +73,7 @@ img {
     text-decoration: none;
     padding: 24px 0;
     display: block;
-    transition: color 250ms ease;
+    transition: color 0.25s ease;
 }
 
 .menu-link:hover,
@@ -79,19 +81,16 @@ img {
     color: #404bbf;
 }
 
-.contacts {
-    font-style: normal;
-}
-
 .contacts-list {
     display: flex;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .contact-link {
     color: #434455;
     text-decoration: none;
-    transition: color 250ms ease;
+    transition: color 0.25s ease;
 }
 
 .contact-link:hover,
@@ -102,7 +101,7 @@ img {
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    padding: 188px 0;
+    padding: 160px 15px;
 }
 
 .hero-title {
@@ -124,7 +123,7 @@ img {
     border-radius: 4px;
     padding: 16px 32px;
     cursor: pointer;
-    transition: background-color 250ms ease;
+    transition: background-color 0.25s ease;
 }
 
 .hero-btn:hover,
@@ -134,11 +133,15 @@ img {
 
 .features-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
+    justify-content: center;
 }
 
 .feature-item {
-    width: calc((100% - 72px) / 4);
+    flex: 1 1 calc(25% - 18px);
+    min-width: 220px;
+    text-align: center;
 }
 
 .feature-title {
@@ -160,7 +163,9 @@ img {
 
 .team-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
+    justify-content: center;
 }
 
 .team-card {
@@ -170,6 +175,8 @@ img {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+    flex: 1 1 220px;
+    max-width: 264px;
 }
 
 .team-name {
@@ -190,14 +197,15 @@ img {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
+    gap: 24px;
+    justify-content: center;
 }
 
 .portfolio-item {
-    width: calc((100% - 48px) / 3);
+    flex: 1 1 calc(33.333% - 16px);
+    max-width: 360px;
     border: 1px solid #e7e9fc;
-    transition: box-shadow 250ms ease;
+    transition: box-shadow 0.25s ease;
 }
 
 .portfolio-item:hover,
@@ -224,7 +232,8 @@ img {
 
 .footer {
     background-color: #2e2f42;
-    padding: 100px 0;
+    padding: 100px 15px;
+    text-align: center;
 }
 
 .footer-logo {
@@ -243,5 +252,55 @@ img {
     max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+
+    .features-list,
+    .team-list,
+    .portfolio-list {
+        gap: 16px;
+    }
+
+    .hero-title {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .feature-item {
+        flex: 1 1 calc(50% - 12px);
+    }
+
+    .portfolio-item {
+        flex: 1 1 calc(50% - 12px);
+    }
+}
+
+@media (max-width: 480px) {
+
+    .feature-item,
+    .portfolio-item,
+    .team-card {
+        flex: 1 1 100%;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .contacts-list {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .hero {
+        padding: 100px 15px;
+    }
 }
