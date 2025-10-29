@@ -128,8 +128,12 @@ body {
 .span-footer {
     color: #f4f4fd;
 }
+
+:root {
+    --text-color: #f4f4fd;
+}
 .footer-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
+    color: var(--text-color)
 }
