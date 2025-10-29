@@ -12,6 +12,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .span-studio {
@@ -24,6 +25,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 
 .nav-li:hover {
@@ -44,13 +46,17 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
+
 .address-li:hover {
     color: #404bbf;
 }
+
 .address-li:focus {
     color: #404bbf;
 }
+
 .hero {
     background-color: #2e2f42
 }
@@ -99,12 +105,14 @@ body {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .about-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .team-section {
     background-color: #f4f4fd;
 }
@@ -117,14 +125,16 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
 }
- 
+
 .team-li {
     background-color: #ffffff;
+
 }
 
 .footer {
     background-color: #2e2f42;
 }
+
 .span-footer {
     color: #f4f4fd;
 }
@@ -132,8 +142,17 @@ body {
 :root {
     --text-color: #f4f4fd;
 }
+
 .footer-p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color)
+}
+
+.list {
+    list-style: none;
+}
+
+.portfolio-list {
+    list-style: none;
 }
