@@ -4,7 +4,7 @@ body {
     background-color: #ffffff;
 }
 
-/* LOGO */
+
 .logo-main {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -13,19 +13,20 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .logo-span {
     color: #2e2f42;
 }
 
-/* NAV LINKS */
 .navlink-main {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 
 .navlink-main:hover,
@@ -33,7 +34,6 @@ body {
     color: #404bbf;
 }
 
-/* ADDRESS */
 .addr-main {
     font-style: normal;
 }
@@ -43,6 +43,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .addr-link:hover,
@@ -50,7 +51,6 @@ body {
     color: #404bbf;
 }
 
-/* HERO */
 .hero-sec {
     background-color: #2e2f42;
 }
@@ -79,7 +79,6 @@ body {
     background-color: #404bbf;
 }
 
-/* BENEFITS */
 .benef-title {
     font-weight: 500;
     font-size: 20px;
@@ -95,7 +94,6 @@ body {
     color: #434455;
 }
 
-/* TEAM */
 .team-sec {
     background-color: #f4f4fd;
 }
@@ -128,7 +126,6 @@ body {
     color: #434455;
 }
 
-/* PORTFOLIO */
 .port-title {
     font-size: 36px;
     line-height: 1.11;
@@ -153,7 +150,6 @@ body {
     color: #434455;
 }
 
-/* FOOTER */
 .foot-sec {
     background-color: #2e2f42;
 }
@@ -166,14 +162,20 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .logo-footspan {
     color: #f4f4fd;
+
 }
 
 .foot-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--foot-color, #f4f4fd);
+}
+
+.list {
+    list-style: none;
 }
